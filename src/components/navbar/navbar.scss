@@ -1,0 +1,46 @@
+@import "../../reusable/mixins";
+@import "../../reusable/fonts";
+
+.navbar {
+    width: 100%;
+    height: 15%;
+    background-color: $darkBlue;
+    display: flex;
+    justify-content: center;
+    font-family: "Recursive";
+    flex-wrap: wrap;
+    @include tabletSize{
+        justify-content: space-between;
+    }
+    
+    &__heading {
+        color: $blue;
+        align-items: center;
+        font-family: "Lobster";
+        letter-spacing: 2px;
+        padding: 10px;
+        @include tabletSize{
+        margin-left: 10%;
+        }
+    }
+    &__menu {
+        list-style: none;
+        display: flex;
+        align-items: flex-end;
+        padding: 10px;
+        @include tabletSize{
+        margin-right: 10%;
+        }
+        &--item {
+            color: $white;
+            text-decoration: none;
+            margin: auto 5px;
+            border: 1px solid $white;
+            border-radius: 5px;
+            padding: 10px;
+            &:hover{
+                background-color: $blue;
+            }
+        }
+    }
+}

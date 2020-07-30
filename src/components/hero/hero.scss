@@ -1,0 +1,44 @@
+@import "../../reusable/mixins";
+@import "../../reusable/fonts";
+
+.hero{
+    font-family: "Recursive";
+    display: flex;
+    background-image: url(../../assets/hero-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 40rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include tabletSize{
+    padding: 40px 36px;
+    height: 35rem;
+    flex-direction: row;
+    }
+
+
+    &__photo{
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        margin-right: 16px;
+        @include tabletSize{
+        width: 250px;
+        height: 250px;
+        margin-right: 24px;
+        }
+
+
+    }
+    &__text{
+        text-align: center;
+        font-size: 1.5rem;
+        color: $white;
+        @include tabletSize{
+        text-align: left;
+        }
+    }
+
+}

@@ -1,0 +1,84 @@
+@import "../../reusable/mixins";
+@import "../../reusable/fonts";
+
+body{
+    background-color: $dark;
+}
+
+.projects{
+    font-family: "Recursive";
+    background-color: $dark;
+    color: $white;
+    margin: 0;
+    height: 100%;
+    &__title{
+        margin-top:0;
+        font-weight: normal;
+        &--image{
+
+        }
+    }
+    &__container{
+        background-color: $darkBlue;
+        padding: 40px;
+        height: fit-content;
+        border-radius: 20px;
+        margin: 20px 16px;
+        text-transform: uppercase;
+        font-size: 24px;
+        @include tabletSize{
+            width: fit-content;
+        }
+
+        &--work{
+            @include tabletSize{
+                display: flex;
+                }
+        }
+    }
+    &__project{
+        background-color: $darkBlue;
+        border-radius: 20px;
+        padding: 40px;
+        margin: 20px;
+        @include tabletSize {
+            margin: 20px 10px;
+            width: 15rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+        }
+        &--front{
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        &--back{
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+    &__name{
+        font-weight: normal;
+    }
+    &__info{
+
+    }
+
+    &__button{
+        color: $white;
+        text-decoration: none;
+        margin: auto 5px;
+        border: 1px solid $white;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: $darkBlue;
+        &:hover{
+            background-color: $blue;
+        }
+}
+}

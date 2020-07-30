@@ -3,6 +3,7 @@ import './App.scss';
 import Navbar from "./components/navbar/navbar";
 import Hero from "./components/hero/hero";
 import Skills from "./components/skills/skills";
+import Projects from './components/projects/projects';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Skills />
+      <Projects />
     </div>
   );
 }

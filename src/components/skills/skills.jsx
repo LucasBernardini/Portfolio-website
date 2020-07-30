@@ -9,6 +9,7 @@ import firebaselogo from "../../assets/logos/firebase-logo.png";
 import githublogo from "../../assets/logos/GitHub-Logo.png";
 import ps from "../../assets/logos/ps.png";
 import xd from "../../assets/logos/xd-logo.svg";
+import glasses from "../../assets/logos/glasses-outline.svg";
 
 import "./skills.scss";
 
@@ -17,6 +18,7 @@ export default function Skills() {
     <div className="skills">
       <div className="skills__title">
         Skills &amp; <br /> Technologies
+        <img className="skills__glass" src={glasses} alt="glasses"/>
       </div>
       <div className="skills__container">
         <div className="skills__container--divider">

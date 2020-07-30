@@ -1,6 +1,7 @@
 import React from "react";
 import "./projects.scss";
 import ReactCardFlip from "react-card-flip";
+import mac from "../../assets/logos/laptop-outline.svg";
 
 export default class Projects extends React.Component {
   constructor() {
@@ -21,7 +22,7 @@ export default class Projects extends React.Component {
       <div className="projects">
         <div className="projects__container">
           <h2 className="projects__title">Projects</h2>
-          <img className="projects__title--image" src="" alt="" />
+          <img className="projects__title--image" src={mac} alt="computer" />
         </div>
         <div className="projects__container--work">
           <div className="projects__project">
@@ -52,8 +53,8 @@ export default class Projects extends React.Component {
 
               <div className="projects__project--back">
                   <div>
-                <p>see demo</p>
-                <a target="_blank" href="https://github.com/LucasBernardini/3D-Hackathon">see code</a>
+                <p><a href="" className="github">see demo</a></p> <br/>
+                <p><a className="github"  target="_blank" href="https://github.com/LucasBernardini/3D-Hackathon">see code</a></p>
                 </div>
                 <div>
                 <button className="projects__button" onClick={this.handleClick}>
@@ -90,8 +91,8 @@ export default class Projects extends React.Component {
 
               <div className="projects__project--back">
                   <div>
-                <p>see demo</p>
-                <a target="_blank" href="https://github.com/LucasBernardini/Billionaire-club" >see code</a>
+                 <p><a href="" className="github">see demo</a> </p> <br/>
+                 <p><a className="github" target="_blank" href="https://github.com/LucasBernardini/Billionaire-club" >see code</a> </p>
                 </div>
                 <div>
                 <button className="projects__button" onClick={this.handleClick}>
@@ -128,8 +129,8 @@ export default class Projects extends React.Component {
 
               <div className="projects__project--back">
                   <div>
-                <p>see demo</p>
-                <a target="_blank" href="https://github.com/LucasBernardini/BeyondBody">see code</a>
+                <p><a href="" className="github">see demo</a></p> <br/>
+                <p><a className="github" target="_blank" href="https://github.com/LucasBernardini/BeyondBody">see code</a></p>
                 </div>
                 <div>
                 <button className="projects__button" onClick={this.handleClick}>

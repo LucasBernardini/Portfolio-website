@@ -13,6 +13,11 @@ flex-direction: column;
 
 }
 
+&__glass{
+    height: 100px;
+    width: 100px;
+}
+
     &__title{
         background-color: $darkBlue;
         padding: 40px;

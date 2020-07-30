@@ -15,7 +15,8 @@ body{
         margin-top:0;
         font-weight: normal;
         &--image{
-
+            height: 100px;
+            width: 100px;
         }
     }
     &__container{
@@ -81,4 +82,20 @@ body{
             background-color: $blue;
         }
 }
+}
+
+.github{
+    color: $white;
+    text-decoration: none;
+    margin: auto 5px;
+    border: 1px solid $white;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: $darkBlue;
+    margin: 20px auto;
+    width: fit-content;
+    font-size: 28px;
+        &:hover{
+            background-color: $blue;
+        }
 }

@@ -1,0 +1,84 @@
+@import "../../reusable/mixins";
+@import "../../reusable/fonts";
+
+.skills{
+font-family: "Recursive";
+background-color: $dark;
+color: $white;
+display: flex;
+flex-direction: column;
+@include tabletSize{
+    flex-direction: row;
+
+}
+
+    &__title{
+        background-color: $darkBlue;
+        padding: 40px;
+        height: fit-content;
+        border-radius: 20px;
+        margin: 20px 16px;
+        text-transform: uppercase;
+        font-size: 24px;
+        @include tabletSize{
+            width: fit-content;
+        }
+    }
+
+    &__container{
+        @include tabletSize{
+        display: flex;
+        }
+        &--divider{
+            background-color: $darkBlue;
+            border-radius: 20px;
+            padding: 40px;
+            margin: 20px;
+            @include tabletSize {
+                margin: 20px 10px;
+                width: 15rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                
+            }
+        }
+        &--text{
+            @include tabletSize{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            }
+        }
+        &--images{
+            @include tabletSize{
+                margin-top: 20px;
+            }
+        }
+    }
+    &__text{
+        border-bottom: 3px solid $dark;
+        width: fit-content;
+        padding: 10px;
+        border-radius: 3px;
+        &:hover{
+            background-color: $dark;
+        }
+
+    }
+    &__image{
+        width: auto;
+        height: 3rem;
+        margin: 10px;
+        
+    }
+    &__sub{
+        background-color: $dark;
+        width: fit-content;
+        padding: 10px;
+        font-weight: normal;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+}

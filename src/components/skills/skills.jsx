@@ -17,7 +17,9 @@ export default function Skills() {
   return (
     <div className="skills">
       <div className="skills__title">
+        <p>
         Skills &amp; <br /> Technologies
+        </p>
         <img className="skills__glass" src={glasses} alt="glasses"/>
       </div>
       <div className="skills__container">

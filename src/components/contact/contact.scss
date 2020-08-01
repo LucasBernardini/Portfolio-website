@@ -1,0 +1,89 @@
+@import "../../reusable/mixins";
+@import "../../reusable/fonts";
+
+.contact{
+    display: flex;
+    font-family: "Recursive";
+    color: $white;
+    flex-direction: column;
+    margin: 24px;
+    @include tabletSize{
+        justify-content: center;
+    }
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        @include tabletSize{
+            flex-direction: row;
+        }
+        &--1{
+            font-family: "Recursive";
+            font-size: 18px;
+            background-color: $darkBlue;
+            border-radius: 10px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 24px auto;
+            padding: 20px 0;
+            @include tabletSize{
+                width: 40%;
+            }
+            
+        }
+        &--2{
+            font-family: "Recursive";
+            font-size: 18px;
+            background-color: $darkBlue;
+            border-radius: 10px;
+            width: 100%;
+            margin: 24px auto;
+            @include tabletSize{
+                margin: auto;
+                width: 85%;
+                padding: 10px 30px;
+                display: flex;
+                justify-content: center;
+            }
+            
+        }
+    }
+    &__heading{
+        font-family: "Recursive";
+        font-size: 36px;
+        background-color: $darkBlue;
+        border-radius: 10px;
+        padding: 10px;
+        @include tabletSize{
+            margin: 24px;
+        }
+    }
+    &__sub{
+        font-weight: normal;
+        background-color: $dark;
+        width: fit-content;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 10px 50px;
+    }
+    &__icon{
+        width: 100px;
+        height: 100px;
+        fill: $white;
+        
+    }
+    &__text{
+        &--bot{
+            padding: 10px 24px;
+            text-align: center;
+            @include tabletSize{
+                padding: 10px 0;
+            }
+        }
+    }
+}

@@ -16,11 +16,13 @@ import "./skills.scss";
 export default function Skills() {
   return (
     <div className="skills">
-      <div className="skills__title">
+      <div>
+        <div className="skills__title">
         <p>
         Skills &amp; <br /> Technologies
         </p>
         <img className="skills__glass" src={glasses} alt="glasses"/>
+      </div>
       </div>
       <div className="skills__container">
         <div className="skills__container--divider">
@@ -34,7 +36,7 @@ export default function Skills() {
           </div>
           <div className="skills__container--images">
             <img className="skills__image" src={reactlogo} alt="react" />
-            <img className="skills__image" src={sassl} alt="sass" /> <br/>
+            <img className="skills__image" src={sassl} alt="sass" />
             <img className="skills__image" src={wp} alt="wordpress" />
             <img className="skills__image" src={shopify} alt="shopify" />
           </div>
@@ -48,7 +50,7 @@ export default function Skills() {
           </div>
           <div className="skills__container--images">
             <img className="skills__image" src={nodelogo} alt="node" />
-            <img className="skills__image" src={sql} alt="mySQL" /> <br/>
+            <img className="skills__image" src={sql} alt="mySQL" />
             <img className="skills__image" src={firebaselogo} alt="firebase" />
           </div>
         </div>
@@ -62,7 +64,7 @@ export default function Skills() {
           </div>
           <div className="skills__container--images">
             <img className="skills__image" src={xd} alt="adobe XD" />
-            <img className="skills__image" src={ps} alt="adobe photoshop" /> <br/>
+            <img className="skills__image" src={ps} alt="adobe photoshop" />
             <img className="skills__image" src={githublogo} alt="github" />
           </div>
         </div>

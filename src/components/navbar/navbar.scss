@@ -38,9 +38,16 @@
             border: 1px solid $white;
             border-radius: 5px;
             padding: 10px;
+            cursor: pointer;
+            transition: ease;
             &:hover{
                 background-color: $blue;
             }
         }
     }
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
 }

@@ -19,7 +19,7 @@ export default class Projects extends React.Component {
 
   render() {
     return (
-      <div className="projects">
+      <div className="projects" id="projects">
         <div className="projects__container">
           <h2 className="projects__title">Projects</h2>
           <img className="projects__title--image" src={mac} alt="computer" />
@@ -45,7 +45,7 @@ export default class Projects extends React.Component {
 
               <div className="projects__project--back">
                   <div className="fix">
-                <p><a href="" className="github">see demo</a></p> <br/>
+                <p><a target="_blank" href="https://www.youtube.com/watch?v=OkwUHPYF908" className="github">see demo</a></p> <br/>
                 <p className="projects__info">
                   PartyFlix is an application concept created in 24 hours for
                   the BrainStation x Bell Canada 3D Hackathon. We created a
@@ -84,7 +84,7 @@ export default class Projects extends React.Component {
 
               <div className="projects__project--back">
                   <div>
-                 <p><a href="" className="github">see demo</a> </p> <br/>
+                 <p><a target="_blank" href="https://www.youtube.com/watch?v=ZejTjLzB2Vw" className="github">see demo</a> </p> <br/>
                  <p className="projects__info">
                   Billionaire Club was created in 7 hours as part of
                   BrainStations Spring 2020 Online Live Hackathon. This
@@ -124,7 +124,7 @@ export default class Projects extends React.Component {
 
               <div className="projects__project--back">
                   <div>
-                <p><a href="" className="github">see demo</a></p> <br/>
+                <p><a target="_blank" href="https://www.youtube.com/watch?v=olcjPrl2gOI" className="github">see demo</a></p> <br/>
                 <p className="projects__info">BeyondBody is an outlet for our users to express their
                   thoughts and feelings through journaling. COVID-19 has made
                   society less interactive leaving many individuals alone for

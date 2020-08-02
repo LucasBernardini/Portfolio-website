@@ -2,6 +2,9 @@ import React from "react";
 import "./projects.scss";
 import ReactCardFlip from "react-card-flip";
 import mac from "../../assets/logos/laptop-outline.svg";
+import party from "../../assets/partyflix.png";
+import billionaire from "../../assets/billionaire-photo.png";
+import beyond from "../../assets/Beyond-body.png";
 
 export default class Projects extends React.Component {
   constructor() {
@@ -33,8 +36,7 @@ export default class Projects extends React.Component {
               <div className="projects__project--front">
                   <div>
                 <h3 className="projects__name">PartyFlix</h3>
-                <p className="projects__info">
-                </p>
+                <img className="projects__computer" src={party} alt="Party Flix"/>
                 </div>
                 <div>
                 <button className="projects__button" onClick={this.handleClick}>
@@ -71,9 +73,7 @@ export default class Projects extends React.Component {
               <div className="projects__project--front">
                   <div>
                 <h3 className="projects__name">Billionaire Club</h3>
-                <p className="projects__info">
-                  
-                </p>
+                <img className="projects__computer" src={billionaire} alt="Billionaire Club"/>
                 </div>
                 <div>
                 <button className="projects__button" onClick={this.handleClick}>
@@ -112,8 +112,7 @@ export default class Projects extends React.Component {
               <div className="projects__project--front">
                   <div>
                 <h3 className="projects__name">Beyond Body</h3>
-                <p className="projects__info">
-                </p>
+                <img className="projects__computer" src={beyond} alt="Beyond Body"/>
                 </div>
                 <div>
                 <button className="projects__button" onClick={this.handleClick}>

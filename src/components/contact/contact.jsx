@@ -39,8 +39,7 @@ export default function Contact() {
       </div>
       <div className="contact__container--2 contact__container">
         <p className="contact__text--bot">
-          Do you need some development work done? feel free to reach out to me
-          on any of the methods provided above!
+          Are you looking for a web developer? Feel free to reach out through any of the methods provided above!
         </p>
       </div>
     </div>

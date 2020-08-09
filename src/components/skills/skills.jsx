@@ -31,14 +31,14 @@ export default function Skills() {
             <p className="skills__text">HTML</p>
             <p className="skills__text">CSS // SASS</p>
             <p className="skills__text">Javascript // React</p>
-            <p className="skills__text">Wordpress</p>
-            <p className="skills__text">Shopify</p>
+            {/* <p className="skills__text">Wordpress</p>
+            <p className="skills__text">Shopify</p> */}
           </div>
           <div className="skills__container--images">
             <img className="skills__image" src={reactlogo} alt="react" />
             <img className="skills__image" src={sassl} alt="sass" />
-            <img className="skills__image" src={wp} alt="wordpress" />
-            <img className="skills__image" src={shopify} alt="shopify" />
+            {/* <img className="skills__image" src={wp} alt="wordpress" />
+            <img className="skills__image" src={shopify} alt="shopify" /> */}
           </div>
         </div>
         <div className="skills__container--divider">

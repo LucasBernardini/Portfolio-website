@@ -87,3 +87,10 @@
         }
     }
 }
+
+.resume{
+    padding: 0.5rem;
+    &:hover{
+        background-color: $blue;
+    }
+}

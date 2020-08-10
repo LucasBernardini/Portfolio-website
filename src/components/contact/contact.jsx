@@ -35,6 +35,7 @@ export default function Contact() {
           <h2 className="contact__sub">Contact</h2>
           <p className="contact__text">lucas.bernardini97@gmail.com</p>
           <p className="contact__text">416 · 573 · 1523</p>
+          <p>Resume: <a className="resume" target="_" href="https://drive.google.com/file/d/1WEsEEOF2tjNS4fMG4WWyDAaM0A5W_rUq/view?usp=sharing">click to view</a></p>
         </div>
       </div>
       <div className="contact__container--2 contact__container">

@@ -148,7 +148,10 @@ export default class Projects extends React.Component {
             >
               <div className="projects__project--front">
                   <div>
-                <h3 className="projects__name">More coming soon</h3>
+                <h3 className="projects__name">Live Projects</h3>
+                <div className="live">
+                <a className="projects__button" href="https://workout-tracker-beta.vercel.app/" target="_" >Workout Tracker</a>
+                </div>
                 </div>
                 <div>
                 {/* <button className="projects__button" onClick={this.handleClick}>
@@ -159,9 +162,11 @@ export default class Projects extends React.Component {
 
               <div className="projects__project--back">
                   <div>
-                <p>Coming soon</p>
-                <p>...</p>
+                  <h3 className="projects__name">Live Projects</h3>
+                  <div className="live">
+                <a className="projects__button" href="https://workout-tracker-beta.vercel.app/" target="_">Workout Tracker</a>
                 </div>
+              </div>
                 <div>
                 <button className="projects__button" onClick={this.handleClick}>
                   Back

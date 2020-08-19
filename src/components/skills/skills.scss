@@ -81,13 +81,9 @@ margin: auto 24px;
         padding: 10px;
         border-bottom: 3px solid $dark;
         width: fit-content;
-        border-radius: 3px;
+        // border-radius: 3px;
         font-size: 18px;
         cursor: default;
-        &:hover{
-            background-color: $dark;
-        }
-
     }
     &__image{
         width: auto;
